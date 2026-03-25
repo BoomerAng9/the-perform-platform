@@ -1,0 +1,27 @@
+{
+  "$schema": "aims-ecosystem-node/v1",
+  "nodeId": "the-perform-platform",
+  "repo": "BoomerAng9/the-perform-platform",
+  "tier": 2,
+  "role": "service",
+  "label": "Per|Form — Analytics & KPI Platform",
+  "description": "Performance tracking, KPI analytics, and business intelligence. Houses OKAI (Open|Klass AI), scout-hub, film-room, and war-room. Deployed via AIMS VPS Docker profile --profile perform.",
+  "provides": ["perform-analytics", "kpi-tracking", "business-intel", "okai-engine", "scout-hub", "film-room", "war-room"],
+  "consumes": ["aims-backend", "luc-engine"],
+  "endpoints": {},
+  "deployProfile": "--profile perform",
+  "hub": "BoomerAng9/AIMS",
+  "peers": [
+    "BoomerAng9/AIMS",
+    "BoomerAng9/LUC-Locale-Universal-Calculator"
+  ],
+  "chatIcon": {
+    "asset": "assets/acheevy-helmet.png",
+    "rule": "ACHEEVY Helmet is the ONLY primary chat avatar. Per|Form surfaces use ACHEEVY as narrator, with analytics-specific UI badges for scout-hub/film-room/war-room."
+  },
+  "context": {
+    "gridiron": "Per|Form originated from Gridiron sports analytics. scout-hub scouts talent, film-room reviews footage, war-room handles strategy.",
+    "okai": "OKAI (Open|Klass AI) is the open education/classification AI engine hosted within Per|Form.",
+    "lucDependency": "Per|Form calls LUC for financial metrics, billing calculations, and quota enforcement."
+  }
+}
