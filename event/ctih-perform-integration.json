@@ -1,0 +1,27 @@
+{
+  "event": {
+    "name": "Coastal Talent and Innovation Hack-A-Thon",
+    "shortCode": "CTIH",
+    "website": "https://foai.cloud/event/"
+  },
+  "perform_role": {
+    "description": "Per|Form Platform provides real-time performance tracking and analytics for CTIH hack-a-thon teams. Tracks progress, judging scores, and leaderboards.",
+    "features": [
+      "team-progress-tracking",
+      "judging-scorecard-system",
+      "real-time-leaderboard",
+      "presentation-timer",
+      "audience-voting",
+      "post-event-analytics"
+    ],
+    "scoring": {
+      "categories": [
+        {"name": "Innovation", "weight": 0.30},
+        {"name": "Technical Execution", "weight": 0.25},
+        {"name": "Design & UX", "weight": 0.20},
+        {"name": "Business Viability", "weight": 0.15},
+        {"name": "Presentation", "weight": 0.10}
+      ]
+    }
+  }
+}
